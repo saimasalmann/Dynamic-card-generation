@@ -7,7 +7,6 @@ interface IdCardProps {
   name: string;
   rollNo: string;
   city: string;
-
   schedule: string;
   profileImage: string;
 }
@@ -15,8 +14,6 @@ function IdCard(props: IdCardProps) {
   return (
     <div className="mt-5 ml-5  min-h-screen">
       <div className="bg-slate-200 p-6 rounded-xl shadow-lg max-w-2xl flex items-center justify-center border-4 border-sky-300 relative">
-        
-        
         <Image
           src={kkt}
           alt="background Image"
@@ -68,19 +65,16 @@ function IdCard(props: IdCardProps) {
 
           <p className="mb-2">
             <span className="text-sky-500 font-bold">Batch:</span>
-             <span className="text-black">1</span>
+            <span className="text-black">1</span>
           </p>
 
           {/* button section */}
-          
-            <div className="relative  p-1 rounded-lg border border-grey-300 bg-blue-900 text-white ">
-              <span
-                className="absolute inset-0 rounded-l-lg bg-slate-500  w-[50%]">
-              </span>
-             
-              <span className="relative left-36 ">Q1 & WMD</span>
-            </div>
-          
+
+          <div className="relative  p-1 rounded-lg border border-grey-300 bg-blue-900 text-white ">
+            <span className="absolute inset-0 rounded-l-lg bg-slate-500  w-[50%]"></span>
+
+            <span className="relative left-36 ">Q1 & WMD</span>
+          </div>
         </div>
         {/* right section */}
         <div className="w-1/3 text-center relative ">

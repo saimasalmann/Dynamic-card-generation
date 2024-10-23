@@ -1,5 +1,5 @@
 import React from "react";
-import IdCard from "./Card/page";
+import IdCard from "./components/card";
 
 function Home() {
   return (
